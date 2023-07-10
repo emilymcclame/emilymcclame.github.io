@@ -9,19 +9,24 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-      <image src="./logo.svg" width="215" alt="logo">
-      <nav>
-        <ul class="nav_links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experience</a></li>
+  <nav class="navbar"
+      <div class="navbar__container">
+        <image src="images/Logo.svg" id="navbar__logo" href="index.html" alt="logo"></image>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item"><a href="index.html" class="navbar__links">Home</a></li>
+          <li class="navbar__item"><a href="skills.html" class="navbar__links">Skills</a></li>
+          <li class="navbar__item"><a href="projects.html" class="navbar__links">Projects</a></li>
+          <li class="navbar__item"><a href="experience.html" class="navbar__links">Experience</a></li>
+          <li class="navbar__btn"><a class="button" href="contact.html">Contact</a></li>
         </ul>
+      </div>
       </nav>
-      <a class="cta" href="#"><button>Contact</button></a>
-      Hello!
-    </h1>
-  </header>
+      <h1 class="test">hello</h1>
+    </div>
 </body>
 </html>
