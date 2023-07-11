@@ -108,7 +108,7 @@ body, html {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: max-content;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -125,7 +125,7 @@ body, html {
         opacity: 0; 
         /* background: #131313; */
         transition: all 0.5s ease;
-        height: 40vh;
+        height: max-content;
         z-index: -1;
     }
 
@@ -135,7 +135,7 @@ body, html {
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 40vh;
+        height: max-content;
         font-size: 1rem;
         right: 0%;
     }
@@ -182,7 +182,7 @@ body, html {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 50%;
         height: 50px;
         margin: 0;
     }
@@ -510,7 +510,7 @@ body, html {
 }
 @media screen and (max-width:536px) {
     .about__me {
-        margin: 100px 0 0 0;
+        margin: 15% 0 0 0;
         padding: 0;
         grid-template-columns: 100%;
         height: max-content;
@@ -546,9 +546,28 @@ body, html {
 
 @media screen and (max-width:307px) {
     .about__me {
-        height: 70vh;
+        height: max-content;
     }
     .about__image--container {
-        height: 40vh;
+        height: max-content;
+    }
+}
+
+/* Closing Message */
+.end__message {
+    margin: 20% 0;
+    padding: 5%;
+    background-color: #ffffff11;
+}
+
+.end__message p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+@media screen and (max-width:536px) {
+        .end__message p {
+        text-align: center;
     }
 }
