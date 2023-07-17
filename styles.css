@@ -528,7 +528,7 @@ body, html {
     }
 
     .about__me p {
-        font-size: 0.7rem;
+        font-size: 70%;
     }
 
     .about__image--container {
@@ -555,19 +555,59 @@ body, html {
 
 /* Closing Message */
 .end__message {
-    margin: 20% 0;
-    padding: 5%;
+    margin: 8% 0;
+    padding: 3.5%;
     background-color: #ffffff11;
 }
 
 .end__message p {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 0.9rem;
+    font-size: 75%;
     letter-spacing: 1.2px;
+    text-align: center;
+    margin: 25px;
 }
 
 @media screen and (max-width:536px) {
         .end__message p {
-        text-align: center;
+        font-size: 80%;
     }
+}
+
+/* Footer */
+.footer {
+    margin-top: 0;
+}
+
+.footer__contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+
+}
+
+.social__media {
+
+}
+
+.social__media--wrap {
+
+}
+
+.footer__title {
+}
+
+.footer__title h2 {
+    font-size: 75%;
+    color: white;
+}
+
+.social__icons {
+
+}
+
+.social__icon--link {
+    color: white;
+    text-decoration: none;
 }
